@@ -73,6 +73,10 @@ export const musterLinks = [
     label: "Muster CNC",
     path: "/muster/cnc",
   },
+  {
+    label: "Muster Premium",
+    path: "/muster/premium",
+  },
 ] as const;
 
 export const grottenLinks = [
@@ -125,5 +129,9 @@ export const zauneLinks = [
   {
     label: "WPC",
     path: "/galerie/zaune/wpc",
+  },
+  {
+    label: "Garagentore",
+    path: "/galerie/zaune/garagentore",
   },
 ] as const;
